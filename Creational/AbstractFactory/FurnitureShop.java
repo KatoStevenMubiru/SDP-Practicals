@@ -8,7 +8,14 @@ public class FurnitureShop {
         private CoffeeTable coffeeTable;
 
         public FurnitureShop(FurnitureFactory factory){
-            chair = factory.createCh
+            chair = factory.createChair();
+            sofa = factory.createSofa();
+            coffeeTable = factory.createCoffeeTable();
+        }
+        public void showcaseFurniture(){
+            chair.sitOn();
+            sofa.relaxOn();
+            coffeeTable.putOn();
         }
     
 }
