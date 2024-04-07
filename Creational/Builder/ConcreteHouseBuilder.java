@@ -11,7 +11,10 @@ class ConcreteHouseBuilder implements HouseBuilder {
         house.setStructure("Concrete Structure");
     }
     public void buildRoof(){
-        
+        house.setRoof("Concrete Roof");
+    }
+    public House getResult(){
+        return house;
     }
     
 }
