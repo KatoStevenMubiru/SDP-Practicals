@@ -11,5 +11,13 @@
     public void setFoundation(String foundation){
         this.foundation = foundation;
     }
-    public 
+    public void setStructure(String structure){
+        this.structure = structure;
+    }
+    public void setRoof(String roof){
+        this.roof = roof;
+    }
+    public void displayHouseDetails(){
+        System.out.println("House with" + foundation + ", " + structure + ", and " + roof );
+    }
 }
