@@ -11,5 +11,7 @@ class BlueColor  implements ColorPrototype{
     public ColorPrototype clone(){
         return new BlueColor();
     }
-    
+    public String getColorName(){
+        return colorName;
+    }
 }
