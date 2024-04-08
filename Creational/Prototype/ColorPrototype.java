@@ -1,1 +1,3 @@
-public interface ColorPrototype
+public interface ColorPrototype{
+    ColorPrototype clone();
+}
