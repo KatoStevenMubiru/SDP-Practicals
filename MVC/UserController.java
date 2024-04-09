@@ -8,5 +8,22 @@ public class UserController {
         this.model = model;
         this.view = view;
     }
-    public void UserModel(U)
+    //setters
+    public void  setUserName(String name){
+        model.setName(name);
+    }
+    public void setUserEmail(String email){
+        model.setEmail(email);
+    }
+    //getters
+    public String getUserName(){
+        return model.getName();
+    }
+    public String getUserEmail(){
+        return model.getEmail();
+    }
+
+     public void updateView(){
+        view.printUserDetails(model.getName(),model.getEmail());
+     }
 }
