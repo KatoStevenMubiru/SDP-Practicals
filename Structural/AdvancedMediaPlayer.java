@@ -1,6 +1,7 @@
 package Structural;
 
 public interface AdvancedMediaPlayer {
-    void 
+    void playVlc(String fileName);
+    void playMp4(String fileName);
     
 }
