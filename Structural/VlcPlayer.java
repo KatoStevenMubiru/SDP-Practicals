@@ -5,6 +5,6 @@ public class VlcPlayer implements AdvancedMediaPlayer{
         System.out.println("Playing vlc file. Name:" +fileName);
     }
     public void playMp4(String fileName){
-        
+        // do nothing
     }
 }
