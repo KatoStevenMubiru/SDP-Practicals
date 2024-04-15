@@ -1,5 +1,5 @@
 package Structural.Composite;
 
-public class Component {
-    
+public interface Component {
+    double getPrice();
 }
