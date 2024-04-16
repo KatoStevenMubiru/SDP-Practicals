@@ -6,6 +6,6 @@ public class SugarDecorator extends CoffeeDecorator{
     }
 
     @Override
-    public 
+    public  
     
 }
