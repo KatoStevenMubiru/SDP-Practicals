@@ -2,17 +2,17 @@ package Structural.Decorator;
 
 public abstract class CoffeeDecorator implements Coffee {
     // initialize coffee object
-    protected Coffee deocoratedCoffee;
+    protected Coffee decoratedCoffee;
 
     public CoffeeDecorator(Coffee coffee){
-        this.deocoratedCoffee = coffee;
+        this.decoratedCoffee = coffee;
     }
 
     public String getDescription(){
-        return deocoratedCoffee.getDescription();
+        return decoratedCoffee.getDescription();
     }
     
     public double getCost(){
-        return deocoratedCoffee.getCost();
+        return decoratedCoffee.getCost();
     }
 }
