@@ -7,5 +7,9 @@ public abstract class CoffeeDecorator implements Coffee {
     public CoffeeDecorator(Coffee coffee){
         this.deocoratedCoffee = coffee;
     }
+
+    public String getDescription(){
+        return deocoratedCoffee.getDescription();
+    }
     
 }
