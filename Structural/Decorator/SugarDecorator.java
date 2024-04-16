@@ -6,6 +6,12 @@ public class SugarDecorator extends CoffeeDecorator{
     }
 
     @Override
-    public  
+    public  String getDescription(){
+        return decoratedCoffee.getDescription() + ", Sugar";
+    }
+    @Override
+    public double getCost(){
+        return decoratedCoffee.getCost() + 0.20;
+    }
     
 }
