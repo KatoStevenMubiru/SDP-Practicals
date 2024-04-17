@@ -20,5 +20,12 @@ class HomeTheaterFacade {
         soundSystem.setVolume(5);
         dvdPlayer.play(movie);
     }
+    public void endMovie(){
+        System.out.print("Shutting down movie theater ...");
+        dvdPlayer.stop();
+        soundSystem.off();
+        projector.off();
+        lights.dim(100);
+    }
     
 }
