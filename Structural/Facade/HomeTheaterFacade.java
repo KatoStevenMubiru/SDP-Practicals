@@ -16,6 +16,9 @@ class HomeTheaterFacade {
         System.out.print("Get ready to watch a movie...");
         lights.dim(10);
         projector.on();
+        soundSystem.on();
+        soundSystem.setVolume(5);
+        dvdPlayer.play(movie);
     }
     
 }
