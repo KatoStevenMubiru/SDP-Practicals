@@ -1,0 +1,6 @@
+package Facade;
+
+class HomeTheaterFacade {
+
+    
+}
