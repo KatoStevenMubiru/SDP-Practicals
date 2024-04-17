@@ -6,6 +6,6 @@ class HomeTheaterFacade {
     private SoundSystem soundSystem;
     private Lights lights;
 
-    
+    public HomeTheaterFacade(Projector projector, DvdPlayer dvdPlayer, SoundSystem soundSystem, Lights)
     
 }
