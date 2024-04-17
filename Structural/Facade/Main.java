@@ -12,6 +12,7 @@ public class Main {
 
     HomeTheaterFacade homeTheaterFacade = new HomeTheaterFacade(projector, dvdPlayer, soundSystem, lights);
     homeTheaterFacade.watchMovie("Inception");
+    homeTheaterFacade.endMovie();
 
   }
     
