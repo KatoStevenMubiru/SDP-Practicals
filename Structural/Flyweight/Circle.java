@@ -2,5 +2,5 @@
 
 public interface Circle {
 
-    void draw(in)
+    void draw(int x, int y);
 }
