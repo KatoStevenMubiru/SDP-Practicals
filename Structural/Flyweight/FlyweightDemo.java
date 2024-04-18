@@ -18,5 +18,7 @@ public class FlyweightDemo {
      private static int getRandomX(){
         return (int) (Math.random() * 100);
      }
-     pr
+     private static int getRandomY(){
+        return (int) (Math.random() * 100);
+     }
 }
