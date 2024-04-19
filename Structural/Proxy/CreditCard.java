@@ -13,7 +13,9 @@ public class CreditCard  implements Payment{
     @Override
     public void pay(int amount){
         if(hasSuffientCreditLimit(amount)){
-            banl
+            bankAccount.pay(amount);
+        } else{
+            System.out.println("Payment declined: Credit limit exceeded.");
         }
     }
 
