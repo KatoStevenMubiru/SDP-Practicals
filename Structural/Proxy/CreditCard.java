@@ -10,5 +10,12 @@ public class CreditCard  implements Payment{
         this.bankAccount = bankAccount;
     }
 
+    @Override
+    public void pay(int amount){
+        if(hasSuffientCreditLimit(amount)){
+            banl
+        }
+    }
+
     
 }
