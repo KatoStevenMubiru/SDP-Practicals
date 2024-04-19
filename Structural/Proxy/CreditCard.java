@@ -18,6 +18,8 @@ public class CreditCard  implements Payment{
             System.out.println("Payment declined: Credit limit exceeded.");
         }
     }
-
+    private boolean hasSuffientCreditLimit(int amount){
+        return amount <= 7000;
+    }
     
 }
