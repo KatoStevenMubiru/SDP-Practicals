@@ -13,7 +13,7 @@ public class BankAccount implements Payment {
         balance -= amount;
         System.out.println("Paid " + amount + " using bank account. Remaining balance: " + balance);
     } else{
-        System.out.println("I");
+        System.out.println("Insufficient");
     }
    }
 }
