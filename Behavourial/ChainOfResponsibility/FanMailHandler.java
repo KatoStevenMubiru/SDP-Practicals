@@ -4,6 +4,15 @@ public class FanMailHandler implements Handler{
     private Handler nextHandler;
 
     @Override
-    
+    public void setNext(Handler handler){
+        this.nextHandler = handler;
+    }
+
+    @Override
+    public void handle(String message){
+        if(message.contains("love")){
+            System.out.println("FanMailHandler");
+        }
+    }
     
 }
