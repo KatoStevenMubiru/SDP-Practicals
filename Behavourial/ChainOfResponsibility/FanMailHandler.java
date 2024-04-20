@@ -12,7 +12,9 @@ public class FanMailHandler implements Handler{
     public void handle(String message){
         if(message.contains("love")){
             System.out.println("FanMailHandler: Handling fan mail.");
-        } else if()
+        } else if(nextHandler != null){
+            nextHandler.handle(message);
+        }
     }
     
 }
