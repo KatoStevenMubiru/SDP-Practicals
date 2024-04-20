@@ -9,9 +9,12 @@ public class SpamHandler implements Handler{
     }
     @Override
     public void handle(String message){
-         if(message.contains("spam"){
+         if(message.contains("spam")){
             System.out.println("SpamHandler: This message is spam .");
-         })
+         } else if(nextHandler != null){
+                 nextHandler.handle(message);
+
+         }
     }
     
 }
