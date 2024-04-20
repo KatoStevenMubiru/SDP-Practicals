@@ -11,8 +11,8 @@ public class FanMailHandler implements Handler{
     @Override
     public void handle(String message){
         if(message.contains("love")){
-            System.out.println("FanMailHandler");
-        }
+            System.out.println("FanMailHandler: Handling fan mail.");
+        } else if()
     }
     
 }
