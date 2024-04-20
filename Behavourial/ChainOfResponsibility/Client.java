@@ -10,7 +10,8 @@ public class Client {
         fan.setNext(complaint);
         complaint.setNext(spam);
 
-        sp
+        spam.handle("This is a spam message .");
+        spam.handle("I really l");
     }
     
 }
