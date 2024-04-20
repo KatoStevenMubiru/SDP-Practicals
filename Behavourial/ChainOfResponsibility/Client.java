@@ -12,6 +12,7 @@ public class Client {
 
         spam.handle("This is a spam message .");
         spam.handle("I really love the product");
+        spam.handle("I have a complaint about my last order");
     }
     
 }
