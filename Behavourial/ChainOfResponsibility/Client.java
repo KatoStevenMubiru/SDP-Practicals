@@ -11,7 +11,7 @@ public class Client {
         complaint.setNext(spam);
 
         spam.handle("This is a spam message .");
-        spam.handle("I really l");
+        spam.handle("I really love the product");
     }
     
 }
