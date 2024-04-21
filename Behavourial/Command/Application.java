@@ -12,5 +12,7 @@ public class Application {
 
         Button copyButton = new Button(copy);
         Button pasteButton = new Button(paste);
+
+        copyButton
     }
 }
