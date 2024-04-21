@@ -9,6 +9,6 @@ public class Document {
         System.out.println("Document copied to clipboard.");
     }
     public void paste(){
-        System.out.println("")
+        System.out.println("Content pasted into document");
     }
 }
