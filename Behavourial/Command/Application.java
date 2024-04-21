@@ -11,5 +11,6 @@ public class Application {
         Command paste = new PasteCommand(document);
 
         Button copyButton = new Button(copy);
+        Button pasteButton = new Button(paste);
     }
 }
