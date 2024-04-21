@@ -9,5 +9,10 @@ public class CopyCommand implements Command{
         this.document = document;
     }
 
+    @Override
+    public void execute(){
+        document.copy();
+    }
+
     
 }
