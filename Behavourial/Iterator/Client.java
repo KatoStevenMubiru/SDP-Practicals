@@ -8,6 +8,7 @@ public class Client {
         aggregate.add(3);
 
         Iterator<Integer> iterator = aggregate.createIterator();
+        
         while (iterator.hasNext()) {
             System.out.println(iterator.next());
         }
