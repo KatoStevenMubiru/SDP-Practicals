@@ -6,5 +6,13 @@ public abstract class Component {
     public Component(DialogMediator mediator){
         this.mediator = mediator;
     }
+
+    public void click(){
+        mediator.notify(this, "click");
+    }
+
+    public void check(){
+        mediator.notify(this, "check");
+    }
     
 }
