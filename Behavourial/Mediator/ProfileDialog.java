@@ -11,5 +11,13 @@ public class ProfileDialog implements DialogMediator{
         submitButton = new Button(this);
     }
     
+    @Override
+    public void notify(Component sender, String event){
+        if(sender == hasDogCheckbox && event.equals("check")){
+            dogNameField.setVisible(true);
+        } else if( sender == submitButton && event.equals("click")){
+            if
+        }
+    }
 }
  
