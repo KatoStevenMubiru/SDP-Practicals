@@ -23,6 +23,9 @@ public class ProfileDialog implements DialogMediator{
             }
         }
     }
-    private boolean validateFields
+    private boolean validateFields(){
+
+        return true;
+    }
 }
  
