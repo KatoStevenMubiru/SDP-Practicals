@@ -16,7 +16,11 @@ public class ProfileDialog implements DialogMediator{
         if(sender == hasDogCheckbox && event.equals("check")){
             dogNameField.setVisible(true);
         } else if( sender == submitButton && event.equals("click")){
-            if(valid)
+            if(validateFields()){
+                System.out.println("Data submitted");
+            } else{
+                System.out.println("Validation failed");
+            }
         }
     }
 }
