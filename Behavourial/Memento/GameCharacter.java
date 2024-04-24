@@ -15,4 +15,6 @@ public class GameCharacter {
     public void setLocation(String location){
         this.location = location;
     }
+
+    //Save
 }
