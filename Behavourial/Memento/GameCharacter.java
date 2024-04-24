@@ -23,7 +23,9 @@ public class GameCharacter {
 
     //Restore 
     public void restore(CharacterMemento memento){
-        
+        this.health = memento.getHealth();
+        this.level  = memento.getLevel();
+        this.location = memento.getLocation();
     }
 
 }
