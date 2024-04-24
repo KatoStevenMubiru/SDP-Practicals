@@ -17,6 +17,8 @@ public class GameCharacter {
     }
 
     //Save
-    public CharacterMemento
+    public CharacterMemento save(){
+        
+    }
 
 }
