@@ -6,6 +6,13 @@ public class GameCharacter {
     private String location;
 
     //Setters
-    public void
-    
+    public void setHealth(int health){
+         this.health = health;
+    }
+    public void setLevel(int level){
+        this.level = level;
+    }
+    public void setLocation(String location){
+        this.location = location;
+    }
 }
