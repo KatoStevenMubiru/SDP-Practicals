@@ -17,5 +17,6 @@ public class GameCharacter {
     }
 
     //Save
-    public C
+    public CharacterMemento
+
 }
