@@ -5,5 +5,9 @@ public class Caretaker {
 
     public void saveMemento(CharacterMemento memento){
         mementos.push(memento);
+
+    }
+    public CharacterMemento getMemento(){
+        
     }
 }
