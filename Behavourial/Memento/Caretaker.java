@@ -8,6 +8,6 @@ public class Caretaker {
 
     }
     public CharacterMemento getMemento(){
-        
+        return mementos.pop();
     }
 }
