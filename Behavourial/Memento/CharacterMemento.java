@@ -15,7 +15,12 @@ public class CharacterMemento {
     public int getHealth(){
         return health;
     }
-
+    public int getLevel(){
+        return level;
+    }
+    public String getLocation(){
+        return location;
+    }
 
     
 }
