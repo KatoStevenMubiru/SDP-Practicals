@@ -7,6 +7,8 @@ public class CharacterMemento {
 
     public CharacterMemento(int health, int level, String location){
         this.health = health;
+        this.level  = level;
+        this.location
     }
 
 
