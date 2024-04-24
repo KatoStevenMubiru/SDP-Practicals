@@ -21,4 +21,9 @@ public class GameCharacter {
         return new CharacterMemento(health, level, location);
     }
 
+    //Restore 
+    public void restore(CharacterMemento memento){
+        
+    }
+
 }
