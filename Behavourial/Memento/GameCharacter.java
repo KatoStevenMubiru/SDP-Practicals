@@ -18,7 +18,7 @@ public class GameCharacter {
 
     //Save
     public CharacterMemento save(){
-        
+        return new CharacterMemento(health, level, location)
     }
 
 }
