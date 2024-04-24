@@ -11,6 +11,11 @@ public class CharacterMemento {
         this.location = location;
     }
 
+    //These getters access the state 
+    public int getHealth(){
+        return health;
+    }
+
 
     
 }
