@@ -1,5 +1,5 @@
-
+//Declares the nofication method that all subscribers must implement.
 public interface Subscriber {
 
-    vo
+    void update(String issue);
 }
