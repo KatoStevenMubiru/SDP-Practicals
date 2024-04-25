@@ -22,5 +22,6 @@ public class MagazinePublisher {
     public void unsubscribe(Subscriber subscriber){
         subscribers.remove(subscriber);
     }
-    
+    @Override
+    public void notifySubscribers()
 }
