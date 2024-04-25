@@ -9,7 +9,7 @@ public class Reader implements SUbscriber{
     
     @Override
     public void update(String issue){
-        System.out.println(name + " received the ");
+        System.out.println(name + " received the latest issue: " + issue);
     }
     
 }
