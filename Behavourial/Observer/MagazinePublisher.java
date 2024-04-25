@@ -1,5 +1,6 @@
 import java.util;
 import java.util.ArrayList;
+import java.util.List;
 import java.util.concurrent.Flow.Subscriber;
 
 //This is the concrete publisher that triggers events and resp notifications
@@ -15,6 +16,11 @@ public class MagazinePublisher {
     @Override
     public void subscribe(Subscriber subscriber){
         subscribers.add(subscriber);
+    }
+
+    @Override
+    public void unsubscribe(Subscriber subscriber){
+        subscribers.remove(subscriber);
     }
     
 }
