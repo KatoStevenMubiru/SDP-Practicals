@@ -6,6 +6,10 @@ public class Reader implements SUbscriber{
     private Reader(String name){
         this.name = name;
     }
-
+    
+    @Override
+    public void update(String issue){
+        System.out.println(name + " received the ");
+    }
     
 }
