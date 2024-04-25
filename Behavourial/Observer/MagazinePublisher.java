@@ -23,5 +23,9 @@ public class MagazinePublisher {
         subscribers.remove(subscriber);
     }
     @Override
-    public void notifySubscribers()
+    public void notifySubscribers(){
+        for(Subscriber subscriber: subscribers){
+            subscriber.update(latestIssue);
+        }
+    }
 }
