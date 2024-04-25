@@ -7,5 +7,7 @@ public class SubscriptionService {
 
         publisher.subscribe(alice);
         publisher.subscribe(namagembe);
+
+        publisher.publishNewIssue(" Magazine Issue 01 2024");
     }
 }
