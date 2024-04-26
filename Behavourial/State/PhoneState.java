@@ -1,5 +1,8 @@
 package Behavourial.State;
 
-public class PhoneState {
+public interface PhoneState {
+
     
 }
+    
+
