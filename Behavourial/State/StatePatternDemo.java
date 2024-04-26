@@ -9,7 +9,7 @@ public class StatePatternDemo {
 
         //change state to unlocked
         phone.setPhoneState(new UnlockedState());
-        
+        phone.pressButton();
     }
     
 }
