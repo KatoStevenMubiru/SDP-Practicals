@@ -9,5 +9,7 @@ public class Smartphone {
     public void setPhoneState(PhoneState state){
         this.currentState = state;
     }
-    
+    public void pressButton(){
+        currentState.pressButton();
+    }
 }
