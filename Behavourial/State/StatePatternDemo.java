@@ -10,6 +10,10 @@ public class StatePatternDemo {
         //change state to unlocked
         phone.setPhoneState(new UnlockedState());
         phone.pressButton();
+
+        //change to low battery
+        phone.setPhoneState(new LowBatteryState());
+        phone.pressButton();
     }
     
 }
