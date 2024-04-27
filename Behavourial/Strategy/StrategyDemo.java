@@ -5,6 +5,9 @@ public class StrategyDemo {
         Navigator navigator = new Navigator(new DrivingStrategy());
         
         navigator.buildRoute("Home", "Office");
+
+        navigator.setStrategy(new WalkingStrategy());
+        navigator.buildRoute("Park", "Museum");
     }
     
 }
