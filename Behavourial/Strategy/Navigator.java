@@ -9,4 +9,7 @@ public class Navigator {
     public void setStrategy(RouteStrategy strategy){
         this.strategy = strategy;
     }
+    public void buildRoute(String origin, String destination){
+        strategy.buildRoute(origin, destination);
+    }
 }
