@@ -14,6 +14,8 @@ public class CoffeeBrewer {
     protected abstract void brew();
 
     private void pourInCup(){
-        
+        System.out.println("Pouring into cup");
     }
+
+    protected abstract void addCondiments(); 
 }
