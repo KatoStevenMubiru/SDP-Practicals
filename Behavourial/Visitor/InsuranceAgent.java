@@ -2,6 +2,9 @@ package Behavourial.Visitor;
 
 public class InsuranceAgent {
     void visit(ResidentialBuilding residential);
-    void visit
+    void visit(Bank bank);
+    void visit(CoffeeShop coffeeShop);
+
+    
     
 }
