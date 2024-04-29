@@ -8,6 +8,6 @@ public class ConcreteInsuranceAgent {
     }
 
     public void visit(Bank bank){
-        
+        System.out.println("O");
     }
 }
