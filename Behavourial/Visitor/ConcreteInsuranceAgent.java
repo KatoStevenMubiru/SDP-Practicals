@@ -14,6 +14,6 @@ public class ConcreteInsuranceAgent {
     }
 
     public void visit(CoffeeShop coffeeShop){
-        System.out.println();
+        System.out.println("Offering fire and flood insurance to the coffee shop.");
     }
 }
