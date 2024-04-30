@@ -1,4 +1,8 @@
 package SOLID.ViolatingSRP;
+
+import java.util.ArrayList;
+import java.util.List;
+
 //Here the class is Violating SRP
 public class Employee {
     private String name;
@@ -8,8 +12,18 @@ public class Employee {
     public Employee(String name, String id){
         this.name = name;
         this.id = id;
-        this.hoursWorked = new
+        this.hoursWorked = new ArrayList<>();
+
+    }
+    
+    public void addHoursWorked(double hours){
+        hoursWorked.add(hours);
     }
 
+    public String generateTimesheetReport(){
+        StringBuilder report = new StringBuilder();
+
+        report.append("Timesheet Report for ").append(name).append("(").append(id).append(")\n);
+    }
     
 }
