@@ -23,7 +23,12 @@ public class Employee {
     public String generateTimesheetReport(){
         StringBuilder report = new StringBuilder();
 
-        report.append("Timesheet Report for ").append(name).append("(").append(id).append(")\n);
+        report.append("Timesheet Report for ").append(name).append(" (").append(id).append(")\n");
+
+        for(Double hours : hoursWorked){
+            report.append(" - ").append(hours).append(" hours\n");
+        }
+        retun
     }
     
 }
