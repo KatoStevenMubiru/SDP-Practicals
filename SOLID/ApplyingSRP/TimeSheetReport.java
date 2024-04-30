@@ -1,6 +1,5 @@
 package SOLID.ApplyingSRP;
 
-
 public class TimesheetReport {
     public String generate(Employee employee) {
         StringBuilder report = new StringBuilder();
