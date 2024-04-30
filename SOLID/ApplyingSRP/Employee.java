@@ -10,4 +10,8 @@ class Employee{
         this.id = name;
         this.hoursWorked = new ArrayList<>();
     }
+
+    public void addHoursWorked(double hours){
+        hoursWorked.add(hours);
+    }
 }
