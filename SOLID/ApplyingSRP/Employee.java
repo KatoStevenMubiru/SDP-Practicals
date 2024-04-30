@@ -14,5 +14,17 @@ class Employee{
     public void addHoursWorked(double hours){
         hoursWorked.add(hours);
     }
-    public List<Double> getHoursWorked
+
+    public List<Double> getHoursWorked(){
+        return hoursWorked;
+    }
+
+    public String getName(){
+        return name;
+    }
+
+    public String getId(){
+        return id;
+    }
+
 }
