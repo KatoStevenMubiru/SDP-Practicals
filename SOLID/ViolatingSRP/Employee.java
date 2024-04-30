@@ -28,7 +28,7 @@ public class Employee {
         for(Double hours : hoursWorked){
             report.append(" - ").append(hours).append(" hours\n");
         }
-        retun
+        return report.toString();
     }
     
 }
