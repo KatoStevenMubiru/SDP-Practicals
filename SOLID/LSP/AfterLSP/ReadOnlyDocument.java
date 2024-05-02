@@ -1,5 +1,8 @@
 package SOLID.LSP.AfterLSP;
 
-public class ReadOnlyDocument {
+public class ReadOnlyDocument implements Document {
+    public void read(){
+        
+    }
     
 }
